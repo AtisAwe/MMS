@@ -1,0 +1,66 @@
+/* Registration Form Styling */
+body {
+    font-family: Calibri, sans-serif;
+    background: url("greenbg.jpg") no-repeat center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  *{
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+  .container {
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    font-weight: bold;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="password"]{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 12px;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 12px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 12px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url("loginbg.jpg") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form label {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+button[type="submit"] {
+  background-color: #00994d;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #008040;
+}
+
+p.small-xl {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 14px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
